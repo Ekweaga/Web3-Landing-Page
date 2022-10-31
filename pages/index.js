@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className='relative'>
         <Image src="/Icosahedron (1).png" width={180} height={350} alt="icon" className='overflow-hidden absolute -top-[30px] -left-[50px] z-1' ></Image>
-          <h1 className='text-8xl text-center mt-[60px] z-5'>The Internet Of <br/>Blockchains.</h1>
+          <h1 className='md:text-8xl text-center mt-[60px] z-5 text-5xl'>The Internet Of <br/>Blockchains.</h1>
           <p className="text-2xl mt-[30px] text-center ">Cronos is an ever expanding ecosystem connected<br/> apps and services,built  for a decentralized future</p>
         </div>
         <div className='absolute right-0 top-[350px] overflow-hidden'>
@@ -32,20 +32,20 @@ export default function Home() {
   <div className='mt-[300px]'>
     <div className=''>
       <h2 className='px-[60px] mb-[40px]'> COMMUNITY-OWNED AND OPERATED</h2>
-      <div className='flex justify-between'>
+      <div className='flex justify-between flex-col md:flex-row'>
       <div className='relative'>
       <Image src="/Helix.png" width={350} height={350} alt="icon" className=' z-5' ></Image>
-      <div className='absolute top-[40px] left-[150px] w-[500px] '>
-      <h1 className='text-6xl  w-[500px] leading-[70px] mb-[40px]'>Enter a Universe <br/>of Connected Services</h1>
-      <p className='w-[400px]'>Cronos apps and services connect using IBC, the inter-blockchain community protocol.This innovation enables you to freely exchange assets and data across sovereign</p>
-      <div className='mt-[80px]'>
+      <div className='absolute top-[40px] md:left-[150px] md:w-[500px]  px-4 md:px-0'>
+      <h1 className='md:text-6xl  md:w-[500px] leading-[70px] mb-[40px] text-5xl'>Enter a Universe <br/>of Connected Services</h1>
+      <p className='md:w-[400px]'>Cronos apps and services connect using IBC, the inter-blockchain community protocol.This innovation enables you to freely exchange assets and data across sovereign</p>
+      <div className='md:mt-[80px] mt-[50px]'>
       <Image src="/Frame 22.png" width={200} height={250} alt="icon" className=' z-5' ></Image>
       </div>
       </div>
       
       </div>
 
-      <div className="mr-[200px] flex flex-col gap-[100px]">
+      <div className="mr-[200px] flex flex-col gap-[100px] mt-[150px] md:mt-0 px-3 md:px-0">
         <div>
           <h1 className='text-8xl'>265+</h1>
           <p>Apps $ Services</p>
@@ -65,24 +65,24 @@ export default function Home() {
 
 
   <div className='mt-[80px]'>
-    <div className="flex flex-col items-center">
-      <div className='relative'>
+    <div className="flex flex-col items-center justify-center">
+      <div className='relative px-4 md:px-0'>
       <Image src="/Thorus 3.png" width={600} height={750} alt="icon" className=' z-5' ></Image>
 
-      <div className='absolute top-[160px] left-[50px] w-[500px] '>
+      <div className='absolute md:top-[160px] md:left-[50px] md:w-[500px] w-[300px] top-[30px] flex flex-col items-center justify-center   md:px-0'>
       <h3 className='text-center mb-[40px]'>ENTER THE CRONOS HUB</h3>
-      <h1 className='text-5xl  w-[500px] leading-[50px] mb-[40px] text-center'>The Heart of the <br/>Interchain</h1>
-      <p className='w-[500px] text-center'>Cronos apps and services connect using IBC, the inter-blockchain community protocol.This innovation enables you to freely exchange assets and data across sovereign</p>
+      <h1 className='text-5xl  md:w-[500px] leading-[50px] mb-[40px] text-center'>The Heart of the <br/>Interchain</h1>
+      <p className='md:w-[500px] text-center text-sm ml-[50px] w-[350px]'>Cronos apps and services connect using IBC, the inter-blockchain community protocol.This innovation enables you to freely exchange assets and data across sovereign</p>
      
       </div>
       
 
       </div>
 
-      <div className='grid grid-cols-2 gap-[40px]'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-[40px] mt-[130px] md:mt-[30px]'>
         <div className='flex flex-col items-center justify-center'>
         <Image src="/Group 8663.png" width={300} height={750} alt="icon" className=' z-5' ></Image>
-        <div className='w-[400px] ml-[70px]'>
+        <div className='md:w-[400px] md:ml-[70px] px-2'>
           <h2 className='text-3xl'>Security Provider</h2>
           <p>With the upcoming interchain security feature HEDRON will soon be securing many chains, in exchange for additional staking holds</p>
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center'>
         <Image src="/Group 8663.png" width={300} height={750} alt="icon" className=' z-5' ></Image>
-        <div className='w-[400px] ml-[70px]'>
+        <div className='md:w-[400px] md:ml-[70px] px-2'>
           <h2 className='text-3xl'>Security Provider</h2>
           <p>With the upcoming interchain security feature HEDRON will soon be securing many chains, in exchange for additional staking holds</p>
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center'>
         <Image src="/Group 8665.png" width={300} height={750} alt="icon" className=' z-5' ></Image>
-        <div className='w-[400px] ml-[70px]'>
+        <div className='md:w-[400px] md:ml-[70px] px-2'>
           <h2 className='text-3xl'>Security Provider</h2>
           <p>With the upcoming interchain security feature HEDRON will soon be securing many chains, in exchange for additional staking holds</p>
           <Image src="/Frame 22.png" width={200} height={250} alt="icon" className=' z-5 mt-[40px]' ></Image>
@@ -107,7 +107,7 @@ export default function Home() {
 
         <div className='flex flex-col items-center justify-center'>
         <Image src="/Group 8662.png" width={300} height={750} alt="icon" className=' z-5' ></Image>
-        <div className='w-[400px] ml-[70px]'>
+        <div className='md:w-[400px] md:ml-[70px] px-2'>
           <h2 className='text-3xl'>Security Provider</h2>
           <p>With the upcoming interchain security feature HEDRON will soon be securing many chains, in exchange for additional staking holds</p>
         </div>
@@ -119,13 +119,13 @@ export default function Home() {
   </div>
 
   <div className='mt-[80px] flex items-center justify-center'>
-    <div className='flex items-center gap-[50px]'>
+    <div className='flex items-center gap-[50px] flex-col md:flex-row'>
     <Image src="/Group 8683.png" width={600} height={750} alt="icon" className=' z-5' ></Image>
     <div>
       <h1 className='text-6xl leading-[70px] mb-[30px]'>Secured by <br/>the Hedoron</h1>
-      <p className='w-[400px]'>In return for securing services on the Cronos Hub, transactions fees and staking rewards are disturbed to HEDRON stalers</p>
+      <p className='md:w-[400px] px-2'>In return for securing services on the Cronos Hub, transactions fees and staking rewards are disturbed to HEDRON stalers</p>
      <div className='flex items-center gap-[40px] '>
-     <Image src="/Frame 22.png" width={200} height={250} alt="icon" className=' z-5 mt-[40px]' ></Image> <p>Learn more</p>
+     <Image src="/Frame 21.png" width={200} height={250} alt="icon" className=' z-5 mt-[40px]' ></Image> <p>Learn more</p>
      </div>
      
     </div>
@@ -142,7 +142,7 @@ export default function Home() {
     <div>
       <h2 className="text-2xl mb-[40px]">Powerful Features</h2>
 
-      <div className="grid grid-cols-2 gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
         <div className='h-[600px] bg-[#141414] w-[500px] p-4'>
           <h3 className="mt-[30px]">INTERCHAIN ACCOUNTS</h3>
           <div className="relative ">
@@ -166,7 +166,7 @@ export default function Home() {
 
 <h3 className="mt-[40px]">COMING SOON</h3>
             </div>
-            <Image src="/eth-dynamic-premium.png" width={150} height={100} alt="icon"></Image>
+            <Image src="/Group 8662.png" width={150} height={100} alt="icon"></Image>
           </div>
 
           <div className='h-[300px]  w-[400px] flex gap-[20px] mt-[10px] '>
@@ -201,14 +201,14 @@ export default function Home() {
 
 
   <div className='mt-[80px] '>
-    <div className='flex justify-between'>
-      <div className='ml-[200px]'>
+    <div className='flex justify-between flex-col md:flex-row'>
+      <div className='md:ml-[200px]'>
         <h3>TECHNOLOGY</h3>
-        <div className='w-[600px]'>
-        <h1 className='text-6xl leading-[70px]'>The most trusted<br/> way to build<br/> value</h1>
+        <div className='w-[600px] px-3'>
+        <h1 className='md:text-6xl leading-[70px] text-4xl'>The most trusted<br/> way to build<br/> value</h1>
         <div>
-          <p className='mt-[40px] w-[400px]'>Cronos is a state-of-the-art-of-blockchain framework that powers the Cronos Hub and its rapidly expanding bit of sovereign</p>
-          <p className='mt-[40px] w-[400px]'>Developers can use the SDK to build innovative applications that create value through exchange with Cronos hub</p>
+          <p className='mt-[40px] md:w-[400px] w-[300px]'>Cronos is a state-of-the-art-of-blockchain framework that powers the Cronos Hub and its rapidly expanding bit of sovereign</p>
+          <p className='mt-[40px] md:w-[400px] w-[300px]'>Developers can use the SDK to build innovative applications that create value through exchange with Cronos hub</p>
         </div>
         <div className='mt-[80px]'>
           <h4>LOW FEES</h4>
@@ -243,13 +243,13 @@ export default function Home() {
   </div>
 
 <div className='mt-[80px] flex items-center justify-center '>
-  <div className="flex flex-col">
+  <div className="flex flex-col items-center justify-center">
     <h1 className='text-5xl mt-[30px] mb-[30px] text-center'>
       Join the network.
     </h1>
 
 
-    <div className="grid grid-cols-3 gap-[30px]">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px]">
         <div className='bg-[#141414] h-[350px] w-[300px] p-4 relative'>
           <h3 className='text-sm'>CONNECT</h3>
 
@@ -288,10 +288,10 @@ export default function Home() {
 </div>
     <div className='mt-[100px] '>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col md:flex-row">
         <div className='relative'>
         <Image src="/Sphere.png" width={350} height={750} alt="icon" className=' z-5' ></Image>
-        <div className='absolute top-[50px] left-[140px]'>
+        <div className='absolute top-[50px] md:left-[140px] px-3'>
           <h1 className="text-5xl leading-[60px] mb-[40px]">Meet the worldwide community.</h1>
           <p>Join the fast-growing community of developers and innovators connected all over the world building the new era of the interest</p>
           <div className="mt-[50px] text-2xl font-bold flex gap-[15px]">
@@ -302,7 +302,7 @@ export default function Home() {
         </div>
       
 
-      <div className="mr-[200px] w-[350px] flex flex-col gap-[100px]">
+      <div className="md:mr-[200px] w-[350px] flex flex-col gap-[100px] px-3">
         <div>
           <h3 className="font-bold text-2xl mb-[15px]">Community Chat {`>>>`}</h3>
           <p className="text-sm">Ask general questions and chat with the worldwide community on telegram</p>
@@ -342,7 +342,7 @@ export default function Home() {
 
 
 <div className="mt-[150px] flex items-center justify-center">
-  <div className="flex gap-[50px]">
+  <div className="flex gap-[50px] flex-col md:flex-row">
     <div>
       <h1 className="font-bold text-2xl">Receive Transmissions</h1>
       <p>Unsubscribe at anytime. Privacy policy {`>>>`}</p>
